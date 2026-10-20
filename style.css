@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #393737;
+    margin: 0px;
+    padding: 5px;
+   
+}
+
+#nav-list{
+    margin-right: 100px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+#nav-button{
+    margin: 0px;
+    padding: 5px;
+    background: rgba(114, 93, 93, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
